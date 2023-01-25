@@ -34,7 +34,12 @@ function Cuisine() {
     return (
         <Container>
             <h3>{capital(id)} Recipe</h3>
-            <Grid>
+            <Grid
+                animate={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.5 }}
+            >
                 {cuisine.map((recipe) => {
                     return (
                         <Card key={recipe.id}>
