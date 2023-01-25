@@ -6,7 +6,6 @@ function Recipes() {
     const [recipes, setRecipes] = useState();
     const [activeTab, setActiveTab] = useState("instructions");
     const { id } = useParams();
-    console.log(id);
 
     useEffect(() => {
         async function getData() {
