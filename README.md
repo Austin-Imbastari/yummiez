@@ -15,7 +15,7 @@ An app that shows a list of catergoies of different favorite recipes.
 - React Router
 
 ## Live Demo
--
+- https://tranquil-kringle-1eb814.netlify.app/
 
 ## Features
 
